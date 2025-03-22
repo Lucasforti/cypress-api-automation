@@ -15,7 +15,7 @@ describe('Buscar Dispositivos', () => {
             })
     })
 
-    it('Buscar dispositivos inexistente', () => {
+    it('Buscar dispositivos inexistentes', () => {
         cy.request({
             method: "GET",
             url: "https://api.restful-api.dev/objects/dsadsa231",
